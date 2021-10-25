@@ -156,11 +156,13 @@ const Grid = ({arrowEvent}) => {
         for (let i = 0; i < 4; i++)
             for (let j = 0; j < 4; j++)
                 if (grid[i][j] === 128){
+                    setInfoStyle({color:'darkolivegreen',fontWeight:'bold'})
                     setGameStatus("Congractulations! You won")
                     if (totalMoves < best || best === 0) 
                         setBest(totalMoves - 1)
                     if (score === 0 || score > bestScore)
                         setBestScore(score)
+                        setScore(score)
                     return 'WON'
                 }
                     
@@ -168,11 +170,11 @@ const Grid = ({arrowEvent}) => {
             for (let j = 0; j < 4; j++)
                 if (grid[i][j] === 0){
                     setInfoStyle({color:'#A08D1A',fontWeight:'normal'})
-                    setGameStatus("Empty Tiles Available")
+                    setGameStatus("Moves Available")
                     return 'GAME NOT OVER'
                 }
         setInfoStyle({color:'#A08D1A',fontWeight:'normal'})
-        setGameStatus('Empty Tiles not Available, Merge is possible')
+        setGameStatus('Tile Merge is possible')
         for (let i = 0; i < 3; i++)
             for (let j = 0; j < 3; j++)
                 if (grid[i][j] === grid[i + 1][j] || grid[i][j] === grid[i][j + 1])
@@ -198,12 +200,9 @@ const Grid = ({arrowEvent}) => {
             setScore(0)
             return
         }
-        let result = [tileValues, true]
         let status = getStatus(tileValues)
-        if (status === "WON" || status === "LOST"){
-            
-            return
-        }
+        if (status === "WON" || status === "LOST") return
+        let result = [tileValues, true]
         setTotalMoves(totalMoves+1)
         switch (direction) {
             case 'left':
@@ -282,6 +281,15 @@ const Grid = ({arrowEvent}) => {
                     <Label>Session Best Score: </Label>
                     <span className="info_text">{bestScore} Points</span>
                 </div>
+                <div className="info_row">
+                    <Label>How to play: </Label>
+                    <a href="https://levelskip.com/puzzle/How-to-play-2048" target="_blank" className="info_text">Rules</a>
+                </div>
+                <div className="info_row">
+                    <Label>Link to algorithm: </Label>
+                    <a href="https://www.geeksforgeeks.org/2048-game-in-python/" target="_blank" className="info_text">Game implementation in Python</a>
+                </div>
+                
             </div>
 
         </div>

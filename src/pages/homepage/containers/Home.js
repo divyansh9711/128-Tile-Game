@@ -2,9 +2,7 @@ import Footer from "../components/Footer"
 import Grid from "../components/Grid"
 import Header from "../components/Header"
 import '../styles/Home.css'
-import ArrowKeysReact from 'arrow-keys-react';
-import { DefaultButton, PrimaryButton } from '@fluentui/react/lib/Button';
-import { Label } from '@fluentui/react/lib/Label';
+import { PrimaryButton } from '@fluentui/react/lib/Button';
 
 import { useState, useEffect } from "react";
 
