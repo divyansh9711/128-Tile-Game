@@ -1,0 +1,52 @@
+.grid {
+    border-radius: 4px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    flex-direction: column;
+    width: 30%;
+    padding: 0.4%;
+}
+
+.grid_row {
+    flex-wrap: nowrap;
+    margin: 1%;
+    gap: 10px;
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.game_body{
+    display: flex;
+    flex-direction: row;
+    justify-content: first baseline;
+    gap:8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.game_summary{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    padding: 0.4%;
+}
+
+.info_row{
+    display: flex;
+    gap: 2px;
+    flex-direction: row;
+}
+
+.info_text{
+    margin-left: 2px;
+    font-size: 14px;
+    align-self: center;
+}

@@ -1,0 +1,26 @@
+.main_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5%;
+}
+
+.game_controller{
+    display: flex;
+    flex-direction: row;
+    justify-content: first baseline;
+    gap:10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.warning_label{
+    display: flex;
+    color: maroon;
+    flex-direction: row;
+    justify-content: first baseline;
+    gap:10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
