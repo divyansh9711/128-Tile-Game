@@ -333,11 +333,17 @@ const Grid = ({arrowEvent}) => {
                 </div>
                 <div className="info_row">
                     <Label>How to play: </Label>
-                    <a href="https://levelskip.com/puzzle/How-to-play-2048" target="_blank" className="info_text">Rules</a>
+                    <span className="info_text"> Use arrow keys, refer to these </span>
+                    <a href="https://levelskip.com/puzzle/How-to-play-2048" target="_blank" className="info_text">rules</a>
+                    
                 </div>
                 <div className="info_row">
                     <Label>Link to algorithm: </Label>
                     <a href="https://www.geeksforgeeks.org/2048-game-in-python/" target="_blank" className="info_text">Game implementation in Python</a>
+                </div>
+                <div className="info_row">
+                    <Label>Link to source code: </Label>
+                    <a href="https://github.com/divyansh9711/128-Tile-Game" target="_blank" className="info_text">Github</a>
                 </div>
                 
             </div>
