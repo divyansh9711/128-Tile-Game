@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/128-Tile-Game/static/css/main.33807432.chunk.css",
-    "main.js": "/128-Tile-Game/static/js/main.b445244d.chunk.js",
-    "main.js.map": "/128-Tile-Game/static/js/main.b445244d.chunk.js.map",
+    "main.js": "/128-Tile-Game/static/js/main.f171a603.chunk.js",
+    "main.js.map": "/128-Tile-Game/static/js/main.f171a603.chunk.js.map",
     "runtime-main.js": "/128-Tile-Game/static/js/runtime-main.e0ce64ce.js",
     "runtime-main.js.map": "/128-Tile-Game/static/js/runtime-main.e0ce64ce.js.map",
-    "static/js/2.4c16cf6d.chunk.js": "/128-Tile-Game/static/js/2.4c16cf6d.chunk.js",
-    "static/js/2.4c16cf6d.chunk.js.map": "/128-Tile-Game/static/js/2.4c16cf6d.chunk.js.map",
+    "static/js/2.e324d4f8.chunk.js": "/128-Tile-Game/static/js/2.e324d4f8.chunk.js",
+    "static/js/2.e324d4f8.chunk.js.map": "/128-Tile-Game/static/js/2.e324d4f8.chunk.js.map",
     "static/js/3.715a74ea.chunk.js": "/128-Tile-Game/static/js/3.715a74ea.chunk.js",
     "static/js/3.715a74ea.chunk.js.map": "/128-Tile-Game/static/js/3.715a74ea.chunk.js.map",
     "index.html": "/128-Tile-Game/index.html",
     "static/css/main.33807432.chunk.css.map": "/128-Tile-Game/static/css/main.33807432.chunk.css.map",
-    "static/js/2.4c16cf6d.chunk.js.LICENSE.txt": "/128-Tile-Game/static/js/2.4c16cf6d.chunk.js.LICENSE.txt"
+    "static/js/2.e324d4f8.chunk.js.LICENSE.txt": "/128-Tile-Game/static/js/2.e324d4f8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e0ce64ce.js",
-    "static/js/2.4c16cf6d.chunk.js",
+    "static/js/2.e324d4f8.chunk.js",
     "static/css/main.33807432.chunk.css",
-    "static/js/main.b445244d.chunk.js"
+    "static/js/main.f171a603.chunk.js"
   ]
 }
