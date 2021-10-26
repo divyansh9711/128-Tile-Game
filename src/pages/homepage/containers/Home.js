@@ -6,7 +6,7 @@ import { PrimaryButton } from '@fluentui/react/lib/Button';
 
 import { useState, useEffect } from "react";
 
-
+// Home container containing the body of the webpage, also responsible to pass  on arrow events
 const Home = () => {
     const [key, setKey] = useState(null)
     const [warning, setWarning] = useState('')

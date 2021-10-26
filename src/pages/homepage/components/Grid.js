@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { Label } from "@fluentui/react";
 
 //Source to tile algorithm: https://www.geeksforgeeks.org/2048-game-in-python/
-
+// Grid component responsible for fascilitating the game
 const Grid = ({arrowEvent}) => {
     var [tileInfo] = useState([
         [0, 0, 0, 0],

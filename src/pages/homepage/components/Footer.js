@@ -2,11 +2,15 @@ import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 import '../styles/Footer.css'
+//Footer component
 const Footer = () => {
     return (
         <div className="footer">
-            <span>Made by Divyansh Singh</span>
+            <span>Made with</span>
+            <FavoriteIcon/>
+            <span>by Divyansh Singh</span>
             <LocalPhoneIcon></LocalPhoneIcon>
             <span>+91 8003695517</span>
             <EmailIcon></EmailIcon>

@@ -1,5 +1,6 @@
 
 import '../styles/header.css'
+//Header component
 const Header = () => { 
     return (
         <div className="header">
