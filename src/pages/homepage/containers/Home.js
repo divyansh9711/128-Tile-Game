@@ -11,8 +11,8 @@ const Home = () => {
     const [key, setKey] = useState(null)
     const [warning, setWarning] = useState('')
     useEffect(()=>{
-        //setTileValues(tileInfo)
-       configureArrows()
+        if (window.innerWidth < 800) alert('Game not scaled for mobile devices, please use a computer')
+        configureArrows()
     },[]);
 
     const configureArrows = () =>{
