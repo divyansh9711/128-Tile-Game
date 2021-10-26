@@ -6,7 +6,7 @@ import { Label } from "@fluentui/react";
 //Source to tile algorithm: https://www.geeksforgeeks.org/2048-game-in-python/
 
 const Grid = ({arrowEvent}) => {
-    var [tileInfo, setTileInfo] = useState([
+    var [tileInfo] = useState([
         [0, 0, 0, 0],
         [0, 0, 0, 0],
         [0, 0, 0, 0],
@@ -262,7 +262,8 @@ const Grid = ({arrowEvent}) => {
             setTotalMoves(0)
             setScore(0)
             setOverAllStatus(true)
-            return
+            setInfoStyle({color:'green',fontWeight:'normal'})
+            setGameStatus("Moves Available")
         }
         // check if game is in active or completed state
         if (!overAllStatus) return
